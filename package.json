@@ -17,6 +17,10 @@
         "nodejs",
         "js"
     ],
+    "dependencies": {
+        "restify": "^8.1.1",
+        "dotenv": "^6.2.0"
+    },
     "author": "Martin Lindahl",
     "license": "ISC",
     "bugs": {
