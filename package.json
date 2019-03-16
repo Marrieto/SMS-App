@@ -18,8 +18,9 @@
         "js"
     ],
     "dependencies": {
+        "dotenv": "^6.2.0",
         "restify": "^8.1.1",
-        "dotenv": "^6.2.0"
+        "twilio": "^3.29.2"
     },
     "author": "Martin Lindahl",
     "license": "ISC",
