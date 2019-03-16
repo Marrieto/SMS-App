@@ -9,6 +9,7 @@ server.use(restify.plugins.bodyParser())
 
 server.post('/text', (req, res, next) => {
     console.log('recieved a POST!')
+    console.log(req.body)
 
     client.messages
         .create({
