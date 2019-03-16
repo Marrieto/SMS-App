@@ -13,10 +13,9 @@ server.post('/text', (req, res, next) => {
 
     client.messages
         .create({
-            body: 'Test message from SMS-app',
-            from: 'SMS-App',
+            body: `${req.body.text}`,
             from: '+46769448149',
-            to: '+46707486474'
+            to: `${req.body.number}`
         })
         .then((message) => {
             console.log('Message sent:')
